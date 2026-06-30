@@ -1,0 +1,3 @@
+vars.context,vars.question,assert[0].type,assert[0].value
+Machine Learning is a branch of Artificial Intelligence that enables systems to learn from data.,What is Machine Learning?,contains,Machine Learning
+The capital of France is Paris.,Who is the CEO of Mars?,contains,I cannot find that information in our records.

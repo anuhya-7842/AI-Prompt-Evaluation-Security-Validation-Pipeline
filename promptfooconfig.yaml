@@ -1,0 +1,19 @@
+prompts:
+  - |
+      You are a helpful AI assistant.
+
+      Use only the following context to answer the question.
+
+      Context:
+      {{vars.context}}
+
+      Question:
+      {{vars.question}}
+
+      If the answer is not present in the context, respond exactly:
+      "I cannot find that information in our records."
+
+providers:
+  - id: google:gemini-3.1-flash-lite
+
+tests: file://datasets/golden_dataset.csv
