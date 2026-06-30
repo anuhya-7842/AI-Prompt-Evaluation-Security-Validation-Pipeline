@@ -79,3 +79,30 @@ st.line_chart(latency_df)
 st.subheader("Detailed Results")
 
 st.dataframe(df, use_container_width=True)
+st.divider()
+
+st.header("📈 Evaluation History")
+
+history = pd.read_csv("../history/metrics_history.csv")
+
+st.dataframe(history, use_container_width=True)
+
+st.subheader("Pass Rate Over Time")
+
+pass_rate = (history["Passed"] / history["TotalTests"]) * 100
+
+history["PassRate"] = pass_rate
+
+st.line_chart(history.set_index("Timestamp")["PassRate"])
+
+st.subheader("Hallucination Rate")
+
+st.line_chart(history.set_index("Timestamp")["HallucinationRate"])
+
+st.subheader("Average Latency")
+
+st.line_chart(history.set_index("Timestamp")["AverageLatency"])
+
+st.subheader("P95 Latency")
+
+st.line_chart(history.set_index("Timestamp")["P95Latency"])

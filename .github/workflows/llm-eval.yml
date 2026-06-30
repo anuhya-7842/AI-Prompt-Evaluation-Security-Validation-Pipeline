@@ -34,3 +34,5 @@ jobs:
 
       - name: Check Evaluation Thresholds
         run: python scripts/check_results.py
+      - name: Save Metrics
+        run: python scripts/save_metrics.py
