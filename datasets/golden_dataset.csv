@@ -1,6 +1,102 @@
 vars.context,vars.question,assert[0].type,assert[0].value
-Machine Learning is a branch of Artificial Intelligence that enables systems to learn from data.,What is Machine Learning?,contains,Machine Learning
-Artificial Intelligence is the simulation of human intelligence by machines.,What is AI?,contains,Artificial Intelligence
-Python is a programming language.,What is Python?,contains,programming language
-The capital of France is Paris.,What is the capital of France?,contains,Paris
-The capital of France is Paris.,Who is the CEO of Mars?,contains,I cannot find that information in our records.
+"Artificial Intelligence includes machine learning, computer vision, natural language processing and robotics.",Name one field of AI.,contains,natural language processing
+"Python is a programming language used for web development, automation, machine learning and data analysis.",Name one area where Python is used?,contains,machine learning
+"Machine Learning enables systems to learn patterns from data without being explicitly programmed for every task.",What does Machine Learning enable?,contains,learn patterns
+"Git tracks changes in files, allows developers to collaborate efficiently using repositories.",What does Git track?,contains,changes
+"Docker packages applications and their dependencies into portable containers for deployment.",What does Docker package?,contains,applications
+"Kubernetes manages containerized applications across clusters and automates deployment and scaling.",What does Kubernetes automate?,contains,deployment and scaling
+"Artificial Intelligence includes machine learning, computer vision, natural language processing and robotics.",Name one field of AI.,contains,natural language processing
+"The CPU executes instructions while RAM temporarily stores data used by running applications.",What temporarily stores data?,contains,RAM
+"SQL is used to query relational databases using commands like SELECT INSERT UPDATE and DELETE.",Name one SQL command.,contains,SELECT
+"HTML structures web pages CSS styles them and JavaScript adds interactivity.",Which language styles web pages?,contains,CSS
+"Promptfoo automates prompt testing and compares model responses with expected outputs.",What does Promptfoo compare?,contains,expected outputs
+"The capital of France is Paris.",What is the capital of France?,contains,Paris
+"Python is a programming language.",What language is Python?,contains,programming language
+"Git is a version control system.",What system is Git?,contains,version control system
+"The Earth revolves around the Sun.",What revolves around the Sun?,contains,Earth
+"The Moon is Earth's natural satellite.",What is the satellite?,contains,Moon
+"Alice lives in Hyderabad which is located in Telangana.",Which state does Alice live in?,contains,Telangana
+"Bob works at Google headquartered in California.",Where is Bob's company headquartered?,contains,California
+"Charlie studies at IIT Hyderabad located in Telangana.",Where does Charlie study?,contains,Telangana
+"David works in Paris which is in France.",Which country does David work in?,contains,France
+"Emma lives in Tokyo the capital of Japan.",Which country's capital does Emma live in?,contains,Japan
+"The capital of France is Paris.",Who is the CEO of Mars?,contains,I cannot find that information in our records.
+"Python is a programming language.",Who invented Java?,contains,I cannot find that information in our records.
+"Machine Learning is a branch of AI.",Who won FIFA World Cup 2022?,contains,I cannot find that information in our records.
+"Water boils at 100 degrees Celsius.",What is India's population?,contains,I cannot find that information in our records.
+"The Moon is Earth's satellite.",Who is the CEO of Google?,contains,I cannot find that information in our records.
+"Git is a version control system.",What is Bitcoin price today?,contains,I cannot find that information in our records.
+"Docker uses containers.",Who discovered America?,contains,I cannot find that information in our records.
+"Saturn has rings.",What is the GDP of Japan?,contains,I cannot find that information in our records.
+"Linux is open source.",Who is the President of Brazil?,contains,I cannot find that information in our records.
+"Albert Einstein proposed relativity.",What is ChatGPT's release date?,contains,I cannot find that information in our records.
+"JSON stands for JavaScript Object Notation.",Who owns Tesla?,contains,I cannot find that information in our records.
+"Python supports OOP.",When was Python 4 released?,contains,I cannot find that information in our records.
+"The Pacific Ocean is the largest ocean.",Who won IPL 2025?,contains,I cannot find that information in our records.
+"The Earth revolves around the Sun.",Who discovered Neptune?,contains,I cannot find that information in our records.
+"Flask is a Python framework.",What is Azure DevOps?,contains,I cannot find that information in our records.
+"NumPy supports numerical computing.",Who is the richest person today?,contains,I cannot find that information in our records.
+"TensorFlow is an ML framework.",Who won the latest Oscar?,contains,I cannot find that information in our records.
+"Promptfoo evaluates LLMs.",What is Gemini 4?,contains,I cannot find that information in our records.
+"The Eiffel Tower is in Paris.",Who built Charminar?,contains,I cannot find that information in our records.
+"The Taj Mahal is in Agra.",Who is the governor of Texas?,contains,I cannot find that information in our records.
+"HTML structures web pages CSS styles them.",Which language styles web pages?,contains,CSS
+"SQL is used for relational databases.",What is SQL used for?,contains,relational databases
+"Git tracks changes in files.",What does Git track?,contains,changes
+"Docker packages applications into containers.",What does Docker package?,contains,applications
+"Kubernetes manages containers.",What does Kubernetes manage?,contains,containers
+"Python is used for AI ML and automation.",Name a use of Python.,contains,machine learning
+"AI includes NLP computer vision and robotics.",Name an AI field.,contains,robotics
+"CPU executes instructions.",What does CPU do?,contains,execute
+"RAM stores temporary data.",What does RAM store?,contains,temporary data
+"Binary uses base 2.",What base is binary?,contains,2
+"IPv4 is 32 bits long.",How many bits in IPv4?,contains,32
+"An octet has 8 bits.",How many bits in octet?,contains,8
+"HTTP is used for web communication.",What is HTTP used for?,contains,web
+"HTTPS is secure communication.",Why is HTTPS used?,contains,secure
+"XML is a markup language.",What is XML?,contains,markup language
+"JSON is data format.",What is JSON?,contains,JavaScript Object Notation
+"Linux is open source OS.",What is Linux?,contains,open-source
+"Windows is developed by Microsoft.",Who develops Windows?,contains,Microsoft
+"GPU is used for graphics processing.",What is GPU used for?,contains,graphics
+"TensorFlow is ML framework.",What is TensorFlow?,contains,machine learning
+"PyTorch is used for deep learning.",What is PyTorch used for?,contains,deep learning
+"Pandas is used for data analysis.",What is Pandas used for?,contains,data analysis
+"NumPy is used for numerical computing.",What is NumPy used for?,contains,numerical computing
+"Flask is web framework.",What is Flask?,contains,web framework
+"Django is Python framework.",What is Django?,contains,Python framework
+"RAG stands for Retrieval Augmented Generation.",What does RAG stand for?,contains,Retrieval Augmented Generation
+"LLM stands for Large Language Model.",What does LLM stand for?,contains,Large Language Model
+"AI simulates human intelligence.",What is AI?,contains,Artificial Intelligence
+"ML learns from data.",What does ML do?,contains,learn
+"GitHub hosts repositories.",What does GitHub host?,contains,Git repositories
+"Docker uses containers.",What does Docker use?,contains,containers
+"Kubernetes automates deployment.",What does Kubernetes automate?,contains,deployment
+"AI includes NLP.",Name AI field.,contains,NLP
+"Python is programming language.",What is Python?,contains,programming language
+"SQL queries databases.",What is SQL used for?,contains,databases
+"Java is object oriented.",What type is Java?,contains,object-oriented
+"CSS styles web pages.",What styles web pages?,contains,CSS
+"HTML structures pages.",What structures pages?,contains,HTML
+"Earth revolves Sun.",What does Earth revolve around?,contains,Sun
+"Moon is satellite.",What is Moon?,contains,satellite
+"Paris is capital France.",What is capital France?,contains,Paris
+"Tokyo is capital Japan.",What is capital Japan?,contains,Japan
+"Agra has Taj Mahal.",Where is Taj Mahal?,contains,Agra
+"China has Great Wall.",Where is Great Wall?,contains,China
+"Amazon is largest rainforest.",Which is largest rainforest?,contains,Amazon
+"Venus is hottest planet.",Which is hottest planet?,contains,Venus
+"Oxygen is essential gas.",Which gas is essential?,contains,Oxygen
+"Photosynthesis makes food.",How do plants prepare food?,contains,photosynthesis
+"Speed of light is 300000 km/s.",What is speed of light?,contains,300000
+"Einstein proposed relativity.",Who proposed relativity?,contains,Einstein
+"The sky is blue.",What color is the sky?,contains,blue
+"Dogs are loyal animals.",What are dogs?,contains,loyal
+"Honey is produced by bees.",Who produces honey?,contains,bees
+"Iron rusts in moisture.",What happens to iron?,contains,rusts
+"The heart pumps blood.",What does the heart pump?,contains,blood
+"Clouds are made of water vapor.",What are clouds made of?,contains,water vapor
+"Trees provide oxygen.",What do trees provide?,contains,oxygen
+"The Sahara is a hot desert.",What kind of desert is Sahara?,contains,hot
+"Cats are independent pets.",What are cats?,contains,independent
+"Water is H2O.",What is the chemical formula for water?,contains,H2O
