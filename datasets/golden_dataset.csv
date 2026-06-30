@@ -1,3 +1,6 @@
 vars.context,vars.question,assert[0].type,assert[0].value
 Machine Learning is a branch of Artificial Intelligence that enables systems to learn from data.,What is Machine Learning?,contains,Machine Learning
+Artificial Intelligence is the simulation of human intelligence by machines.,What is AI?,contains,Artificial Intelligence
+Python is a programming language.,What is Python?,contains,programming language
+The capital of France is Paris.,What is the capital of France?,contains,Paris
 The capital of France is Paris.,Who is the CEO of Mars?,contains,I cannot find that information in our records.
