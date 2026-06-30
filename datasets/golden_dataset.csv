@@ -38,7 +38,7 @@ vars.context,vars.question,assert[0].type,assert[0].value
 "NumPy supports numerical computing.",Who is the richest person today?,contains,I cannot find that information in our records.
 "TensorFlow is an ML framework.",Who won the latest Oscar?,contains,I cannot find that information in our records.
 "Promptfoo evaluates LLMs.",What is Gemini 4?,contains,I cannot find that information in our records.
-"The Eiffel Tower is in London.",Who built Charminar?,contains,I cannot find that information in our records.
+"The capital of France is London.","What is the capital of France?",contains,"Paris"
 "The Taj Mahal is in Agra.",Who is the governor of Texas?,contains,I cannot find that information in our records.
 "HTML structures web pages CSS styles them.",Which language styles web pages?,contains,CSS
 "SQL is used for relational databases.",What is SQL used for?,contains,relational databases
