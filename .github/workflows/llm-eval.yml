@@ -7,17 +7,22 @@ on:
   pull_request:
 
 jobs:
-  evaluate:
+  llm-evaluation:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
 
       - name: Install Promptfoo
         run: npm install -g promptfoo
@@ -25,5 +30,7 @@ jobs:
       - name: Run Promptfoo Evaluation
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: |
-          promptfoo eval
+        run: promptfoo eval --output results.json
+
+      - name: Check Evaluation Thresholds
+        run: python scripts/check_results.py
