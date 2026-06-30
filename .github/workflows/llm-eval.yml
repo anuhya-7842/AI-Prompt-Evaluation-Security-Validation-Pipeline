@@ -1,15 +1,13 @@
-name: LLM Eval CI
+name: LLM Eval CI/CD
 
 on:
   push:
     branches:
       - main
   pull_request:
-    branches:
-      - main
 
 jobs:
-  llm-eval:
+  evaluate:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,4 +25,5 @@ jobs:
       - name: Run Promptfoo Evaluation
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: promptfoo eval
+        run: |
+          promptfoo eval
