@@ -1,1 +1,3 @@
-Timestamp,TotalTests,Passed,Failed,HallucinationRate,P95Latency,AverageLatency2026-06-30 16:44:44,101,101,0,0.0,20,11.73
+Timestamp,TotalTests,Passed,Failed,HallucinationRate,P95Latency,AverageLatency
+2026-07-01 14:59:53,101,101,0,0.0,20,11.73
+2026-07-01 15:00:30,101,101,0,0.0,20,11.73
