@@ -1,8 +1,8 @@
 {
-  "evalId": "eval-S8A-2026-06-30T10:11:47",
+  "evalId": "eval-0YR-2026-07-01T10:01:11",
   "results": {
     "version": 3,
-    "timestamp": "2026-06-30T10:11:47.790Z",
+    "timestamp": "2026-07-01T10:01:11.947Z",
     "prompts": [
       {
         "id": "f26fe7655f047424bfb670b047e45e2ba1d75213f4efa326776c653755a848af",
@@ -16,7 +16,7 @@
           "testErrorCount": 0,
           "assertPassCount": 0,
           "assertFailCount": 0,
-          "totalLatencyMs": 1185,
+          "totalLatencyMs": 1082,
           "tokenUsage": {
             "prompt": 0,
             "completion": 0,
@@ -67,8 +67,8 @@
             "numRequests": 0
           }
         },
-        "id": "4825156d-f5f1-4242-941b-ae046744180f",
-        "latencyMs": 32,
+        "id": "6d312347-2433-4ef5-b94e-e8cc2c8386f8",
+        "latencyMs": 26,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -194,8 +194,8 @@
             "numRequests": 0
           }
         },
-        "id": "6efafb9c-e465-4852-83d7-1b462a35ae75",
-        "latencyMs": 30,
+        "id": "0b27ea5e-b453-49a3-9d28-ceb51c2041de",
+        "latencyMs": 25,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -321,8 +321,8 @@
             "numRequests": 0
           }
         },
-        "id": "8f11495b-77fa-47d9-84f1-e92b927d41be",
-        "latencyMs": 30,
+        "id": "24e19173-b2ba-413c-86cc-65d3df6b88ba",
+        "latencyMs": 24,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -448,8 +448,8 @@
             "numRequests": 0
           }
         },
-        "id": "1bfe1161-3b33-474b-8378-085bab4c5563",
-        "latencyMs": 30,
+        "id": "a4478154-e9fd-4eb2-8c95-27b9906b4275",
+        "latencyMs": 24,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -575,7 +575,7 @@
             "numRequests": 0
           }
         },
-        "id": "43c8ebad-c880-4f4d-b8c8-434d4777bd6c",
+        "id": "69219cd6-76a4-4143-8f79-cecaeefc7bfd",
         "latencyMs": 14,
         "namedScores": {},
         "prompt": {
@@ -702,8 +702,8 @@
             "numRequests": 0
           }
         },
-        "id": "0f6c02b1-6a10-4697-8d9f-8dd8cd546f35",
-        "latencyMs": 13,
+        "id": "c6666132-5a39-43f7-91c4-0a16c5c1e8a6",
+        "latencyMs": 12,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -829,8 +829,8 @@
             "numRequests": 0
           }
         },
-        "id": "2e5d8a52-d3f9-4df5-bd5a-086cc6584cf7",
-        "latencyMs": 9,
+        "id": "e004e032-0c14-4ed4-94a1-4aba6d9a09a9",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -956,7 +956,7 @@
             "numRequests": 0
           }
         },
-        "id": "73ac8992-ff3a-461e-ab87-ff03901042a1",
+        "id": "def44d19-ece3-4e94-ae32-cb794d1c08eb",
         "latencyMs": 9,
         "namedScores": {},
         "prompt": {
@@ -1083,8 +1083,8 @@
             "numRequests": 0
           }
         },
-        "id": "085c4311-4f47-41b2-8be3-647f2c229ddd",
-        "latencyMs": 15,
+        "id": "22d6f553-ca3e-4296-b8af-27e92bb96fe0",
+        "latencyMs": 13,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -1210,8 +1210,8 @@
             "numRequests": 0
           }
         },
-        "id": "a4426e9e-24c6-4506-9da0-320fb3e06073",
-        "latencyMs": 16,
+        "id": "4be17c8a-b760-4dc8-be25-9807d180a5de",
+        "latencyMs": 14,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -1337,8 +1337,8 @@
             "numRequests": 0
           }
         },
-        "id": "0674f55a-9b28-4d35-bcbf-cf26901a3637",
-        "latencyMs": 10,
+        "id": "afd65e7e-145e-46b7-922d-0401dfbe2555",
+        "latencyMs": 9,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -1464,8 +1464,8 @@
             "numRequests": 0
           }
         },
-        "id": "aa6e1558-e20b-431d-a00d-e88ed0e11e73",
-        "latencyMs": 8,
+        "id": "82e4d259-87d7-4e08-bd8f-5daae99f6b09",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -1591,8 +1591,8 @@
             "numRequests": 0
           }
         },
-        "id": "679817ec-9715-486b-b3af-1b8b91077ff5",
-        "latencyMs": 14,
+        "id": "817094b9-f06f-4045-a29a-5c86a148b806",
+        "latencyMs": 13,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -1718,8 +1718,8 @@
             "numRequests": 0
           }
         },
-        "id": "adc0597f-ca15-4860-88ef-320984b30c33",
-        "latencyMs": 14,
+        "id": "413c7f11-a72a-4cf1-bfb6-db606bb64ae2",
+        "latencyMs": 13,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -1845,8 +1845,8 @@
             "numRequests": 0
           }
         },
-        "id": "84c12d95-1a90-4d59-afc9-1637502cebdd",
-        "latencyMs": 10,
+        "id": "e25247c6-70e9-4cdf-a231-8c04fb9e39a4",
+        "latencyMs": 9,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -1972,8 +1972,8 @@
             "numRequests": 0
           }
         },
-        "id": "99c78a90-746a-4a0c-8139-fbcad83c71b1",
-        "latencyMs": 9,
+        "id": "6296b04c-bc41-4265-bf54-323978427619",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -2099,8 +2099,8 @@
             "numRequests": 0
           }
         },
-        "id": "e10db776-82e8-46fe-9769-2193ecebffe2",
-        "latencyMs": 18,
+        "id": "425f5af3-2b5c-4456-9ec2-8457d331af79",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -2226,8 +2226,8 @@
             "numRequests": 0
           }
         },
-        "id": "62f4e893-6ab8-4555-8f7f-bac83809ad66",
-        "latencyMs": 21,
+        "id": "3c25f099-8548-4094-9482-30151a46ce0c",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -2353,8 +2353,8 @@
             "numRequests": 0
           }
         },
-        "id": "3a942aa2-25d9-4335-8f77-5acc3b518d69",
-        "latencyMs": 11,
+        "id": "736b0306-34ab-42df-b008-4aa8caaf5af9",
+        "latencyMs": 8,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -2480,8 +2480,8 @@
             "numRequests": 0
           }
         },
-        "id": "b0813280-b7e0-4025-aeef-87811f3fae2d",
-        "latencyMs": 9,
+        "id": "aefc3474-a1da-45ec-bfe0-8fbe949cd9f4",
+        "latencyMs": 6,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -2607,8 +2607,8 @@
             "numRequests": 0
           }
         },
-        "id": "4e517127-916e-4714-ac89-ad715aabe07e",
-        "latencyMs": 12,
+        "id": "b63477bd-e573-42bd-b457-51f4530120ed",
+        "latencyMs": 16,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -2734,8 +2734,8 @@
             "numRequests": 0
           }
         },
-        "id": "b3179418-15b9-4945-9740-00215316f33e",
-        "latencyMs": 12,
+        "id": "4a86a857-1e63-4814-882a-5caa7c9e8673",
+        "latencyMs": 16,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -2861,8 +2861,8 @@
             "numRequests": 0
           }
         },
-        "id": "420a23f2-f881-47e7-bbc7-4d532bb1c2ef",
-        "latencyMs": 8,
+        "id": "7b942418-eb43-4833-9e46-0c84f97d2fc9",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -2988,8 +2988,8 @@
             "numRequests": 0
           }
         },
-        "id": "3fbf3a05-9c0f-4bd5-9d9f-5a6008e44282",
-        "latencyMs": 6,
+        "id": "1806995b-512e-40d1-99e2-ecf8ed7068b4",
+        "latencyMs": 9,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -3115,8 +3115,8 @@
             "numRequests": 0
           }
         },
-        "id": "22f9bf8a-1f28-4a7d-b8c2-e254439a49f4",
-        "latencyMs": 11,
+        "id": "da2ba88c-f26f-46d2-9a49-90a5d70a89b4",
+        "latencyMs": 12,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -3242,7 +3242,7 @@
             "numRequests": 0
           }
         },
-        "id": "8a3d260f-7f64-437f-806c-204e20169c9b",
+        "id": "4b3454ed-3f23-48d9-a3b8-6bca4f01e0cc",
         "latencyMs": 12,
         "namedScores": {},
         "prompt": {
@@ -3369,8 +3369,8 @@
             "numRequests": 0
           }
         },
-        "id": "ff3a407d-005f-464b-b69d-74b2b7113d6d",
-        "latencyMs": 9,
+        "id": "eaca8c1c-5b33-477f-9202-b49730df9e72",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -3496,8 +3496,8 @@
             "numRequests": 0
           }
         },
-        "id": "b6448c47-39c9-498c-b19c-c4cf8144421c",
-        "latencyMs": 8,
+        "id": "62a1c6c2-a7a1-4320-932f-9efbcf165f5d",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -3623,7 +3623,7 @@
             "numRequests": 0
           }
         },
-        "id": "7d72c82a-a087-4762-a308-9e65eec08bfd",
+        "id": "0037a599-d4f7-4919-8a50-7a8c92a972b8",
         "latencyMs": 11,
         "namedScores": {},
         "prompt": {
@@ -3750,8 +3750,8 @@
             "numRequests": 0
           }
         },
-        "id": "8d8d9cbc-d30c-4f70-ae8b-60549757745e",
-        "latencyMs": 12,
+        "id": "763419ab-45ec-4acb-b7d4-9f3cd5999350",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -3877,8 +3877,8 @@
             "numRequests": 0
           }
         },
-        "id": "bf795678-00af-4987-b729-a8d217340a7b",
-        "latencyMs": 8,
+        "id": "2cdadb4c-4c81-4b1f-844a-acb24a3aab85",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -4004,8 +4004,8 @@
             "numRequests": 0
           }
         },
-        "id": "f5227e55-e4f5-4c2a-8a91-23600de60d85",
-        "latencyMs": 7,
+        "id": "426ad841-67a3-4f9f-a85c-35cce64125a5",
+        "latencyMs": 6,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -4131,8 +4131,8 @@
             "numRequests": 0
           }
         },
-        "id": "d07af2dd-6a3e-494c-b6a6-3e215442d6b8",
-        "latencyMs": 12,
+        "id": "37de5bfa-cc6c-4597-9a16-2640a32bb15c",
+        "latencyMs": 13,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -4258,8 +4258,8 @@
             "numRequests": 0
           }
         },
-        "id": "1ece9570-3896-4d48-b0bd-d1935b33cec3",
-        "latencyMs": 12,
+        "id": "c0df7b39-561a-4c90-bd67-e77036395816",
+        "latencyMs": 13,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -4385,8 +4385,8 @@
             "numRequests": 0
           }
         },
-        "id": "e5f7de9d-2de1-4a2c-a919-462e04106046",
-        "latencyMs": 9,
+        "id": "e292efd5-df09-4266-9ecf-25363e9bad1e",
+        "latencyMs": 8,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -4512,8 +4512,8 @@
             "numRequests": 0
           }
         },
-        "id": "91b3c128-0e7c-4083-b656-800f68934864",
-        "latencyMs": 8,
+        "id": "62e77221-2660-4976-b972-71cc6314ca0a",
+        "latencyMs": 6,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -4639,8 +4639,8 @@
             "numRequests": 0
           }
         },
-        "id": "9e4944ae-3a4e-4f6f-96c9-20e1a6d711dc",
-        "latencyMs": 13,
+        "id": "61c60cee-3da3-4dea-bbbd-46cf3137e36e",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -4766,8 +4766,8 @@
             "numRequests": 0
           }
         },
-        "id": "758b52ac-b403-4b25-8757-10280a358d42",
-        "latencyMs": 12,
+        "id": "2e5c61ef-8ece-45b4-a84a-2c29eb2ca4df",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -4893,8 +4893,8 @@
             "numRequests": 0
           }
         },
-        "id": "45319531-cfa3-416a-be0c-a56121b75b13",
-        "latencyMs": 10,
+        "id": "ce78ef81-4fcc-4469-b9fb-3842e73961a3",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -5020,8 +5020,8 @@
             "numRequests": 0
           }
         },
-        "id": "0c81e305-d838-4353-9da6-766b9d138595",
-        "latencyMs": 7,
+        "id": "60ccef40-37ae-4285-8fd1-14aa4a560959",
+        "latencyMs": 6,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -5147,8 +5147,8 @@
             "numRequests": 0
           }
         },
-        "id": "56b8f4d1-8645-4b62-8406-06a59e620f76",
-        "latencyMs": 20,
+        "id": "0ebfac96-d105-4c35-bbd7-8fa3b5d96d9c",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -5274,8 +5274,8 @@
             "numRequests": 0
           }
         },
-        "id": "15320415-20a2-4099-9d67-3f963543bf04",
-        "latencyMs": 20,
+        "id": "40af79bd-f63d-42c4-bc40-6f6a6a9ffad1",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -5401,8 +5401,8 @@
             "numRequests": 0
           }
         },
-        "id": "4d055ed8-3bfd-497e-ac53-532bcab8f714",
-        "latencyMs": 14,
+        "id": "77cc6671-490c-41f1-a469-43906d0f3958",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -5528,8 +5528,8 @@
             "numRequests": 0
           }
         },
-        "id": "0977b7d1-3fa2-491b-9820-cee0de4f2fed",
-        "latencyMs": 12,
+        "id": "244ae38b-80bf-4649-abae-a8c648ac5d73",
+        "latencyMs": 6,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -5655,8 +5655,8 @@
             "numRequests": 0
           }
         },
-        "id": "04784f2d-9aff-4744-883c-5cffb5e71eb1",
-        "latencyMs": 16,
+        "id": "adac888a-c98b-4f98-8d86-283c47f52798",
+        "latencyMs": 15,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -5782,8 +5782,8 @@
             "numRequests": 0
           }
         },
-        "id": "adc9d1c9-0a76-4ccf-b008-dbfb39224c12",
-        "latencyMs": 16,
+        "id": "ecc654a6-0922-454f-976d-ea7e0352b35c",
+        "latencyMs": 15,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -5909,8 +5909,8 @@
             "numRequests": 0
           }
         },
-        "id": "d03e3555-0188-4e17-ae78-d55f88f32b09",
-        "latencyMs": 12,
+        "id": "1fb01ac6-df0c-43d1-813c-4c7ef45193c8",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -6036,8 +6036,8 @@
             "numRequests": 0
           }
         },
-        "id": "11f7aadb-ae2d-4c6f-8f46-ca86a39b146e",
-        "latencyMs": 9,
+        "id": "ff171655-0d17-4a69-baec-614c86b31d72",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -6163,8 +6163,8 @@
             "numRequests": 0
           }
         },
-        "id": "d729886e-06be-4834-a3ce-fea7a9b6611d",
-        "latencyMs": 14,
+        "id": "46abf3c2-1ea2-4471-9eaf-4e72414fd052",
+        "latencyMs": 15,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -6290,8 +6290,8 @@
             "numRequests": 0
           }
         },
-        "id": "0d5a1040-87ee-4922-9427-f759130349d5",
-        "latencyMs": 13,
+        "id": "912abd19-ca2c-4453-a7c2-cf1421dad8cd",
+        "latencyMs": 15,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -6417,8 +6417,8 @@
             "numRequests": 0
           }
         },
-        "id": "151dacc8-a59c-404f-a1e8-717d32c9d362",
-        "latencyMs": 10,
+        "id": "dc465f20-7e12-4b23-80dc-bbb733f53c58",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -6544,8 +6544,8 @@
             "numRequests": 0
           }
         },
-        "id": "4ac54070-cb34-4bb3-b2d5-73dc23a3bb96",
-        "latencyMs": 8,
+        "id": "d62234d0-50da-4464-8d66-c0c2e510ca60",
+        "latencyMs": 9,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -6671,7 +6671,7 @@
             "numRequests": 0
           }
         },
-        "id": "9e1edd9a-9a3a-4bb5-971f-c957add43a6f",
+        "id": "b3df6a78-a01e-44eb-8ba0-d1b44ce55d16",
         "latencyMs": 11,
         "namedScores": {},
         "prompt": {
@@ -6798,8 +6798,8 @@
             "numRequests": 0
           }
         },
-        "id": "04f7b780-84a9-4dac-94e3-ea0f18163180",
-        "latencyMs": 11,
+        "id": "7b7d04c1-349c-43c8-ada8-a8576ee424ef",
+        "latencyMs": 12,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -6925,7 +6925,7 @@
             "numRequests": 0
           }
         },
-        "id": "b781d75d-6e70-4cee-8f6f-27d55bfb8867",
+        "id": "5bcf595c-65db-442d-8a85-ba87a54d73d3",
         "latencyMs": 9,
         "namedScores": {},
         "prompt": {
@@ -7052,7 +7052,7 @@
             "numRequests": 0
           }
         },
-        "id": "cf8925e0-f64b-41be-8da1-4dc32be2f377",
+        "id": "402880ab-7024-41ce-b3af-222541a036ec",
         "latencyMs": 7,
         "namedScores": {},
         "prompt": {
@@ -7179,8 +7179,8 @@
             "numRequests": 0
           }
         },
-        "id": "8c731bf5-7a52-4293-94d5-bf687e56a42f",
-        "latencyMs": 13,
+        "id": "03e0e40a-b7d9-4a02-9727-a405779845c0",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -7306,8 +7306,8 @@
             "numRequests": 0
           }
         },
-        "id": "8c98a27b-92e1-4313-af19-0d854c8d159a",
-        "latencyMs": 16,
+        "id": "2e323e8d-0250-4d86-8758-f989bb92d3cc",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -7433,8 +7433,8 @@
             "numRequests": 0
           }
         },
-        "id": "6d2bd4cd-a161-47f7-b6ce-37c5e77a01d0",
-        "latencyMs": 14,
+        "id": "32050380-e1cd-400c-9566-03f36a027aaf",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -7560,8 +7560,8 @@
             "numRequests": 0
           }
         },
-        "id": "b53979f1-28e0-48f9-b7a2-ef9ad8c82fcf",
-        "latencyMs": 12,
+        "id": "30e04509-45dc-4578-9085-449001388902",
+        "latencyMs": 6,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -7687,8 +7687,8 @@
             "numRequests": 0
           }
         },
-        "id": "67386db8-bceb-4e50-83bd-24d15cf68514",
-        "latencyMs": 14,
+        "id": "a95ad31d-ae93-413e-9ac6-f1c157102df1",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -7814,8 +7814,8 @@
             "numRequests": 0
           }
         },
-        "id": "08eb462c-2cdb-4ede-af23-f63e6201b9ff",
-        "latencyMs": 14,
+        "id": "234f6173-5755-42c2-b4cc-a1734e6f37c2",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -7941,7 +7941,7 @@
             "numRequests": 0
           }
         },
-        "id": "762ca37b-861e-41e8-9f60-e1898e3da1c6",
+        "id": "8ccce647-0f09-4b6f-a4ca-aa438f3e3a8a",
         "latencyMs": 8,
         "namedScores": {},
         "prompt": {
@@ -8068,7 +8068,7 @@
             "numRequests": 0
           }
         },
-        "id": "ca22fe70-9aa5-4c0d-a92b-90b513bd4392",
+        "id": "a9abf7a7-ed67-4ef1-8de3-a1d9b92eeddd",
         "latencyMs": 6,
         "namedScores": {},
         "prompt": {
@@ -8195,8 +8195,8 @@
             "numRequests": 0
           }
         },
-        "id": "47d2a8bf-31bc-40d6-b857-2cb22b03f937",
-        "latencyMs": 13,
+        "id": "fbc850a3-5cad-4714-abc7-d1aeb3379d14",
+        "latencyMs": 12,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -8322,8 +8322,8 @@
             "numRequests": 0
           }
         },
-        "id": "cc4ece1e-1b45-4dd9-bd56-1bfb50d731a8",
-        "latencyMs": 13,
+        "id": "d7ccf666-5f09-4fae-a93c-e11c3c8b127f",
+        "latencyMs": 12,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -8449,7 +8449,7 @@
             "numRequests": 0
           }
         },
-        "id": "e84fc060-4032-4797-a8cb-c05c0d55d8ee",
+        "id": "0a1818de-789a-446d-ba80-9865ebc29245",
         "latencyMs": 8,
         "namedScores": {},
         "prompt": {
@@ -8576,8 +8576,8 @@
             "numRequests": 0
           }
         },
-        "id": "b334f36e-50ed-4fde-a91c-8641c1aaf72b",
-        "latencyMs": 8,
+        "id": "bd65a595-626d-448b-a7b9-2e735b772214",
+        "latencyMs": 6,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -8703,8 +8703,8 @@
             "numRequests": 0
           }
         },
-        "id": "90da868e-c0bc-4f9b-a7f2-50c4a7fe4ac0",
-        "latencyMs": 11,
+        "id": "85ab07a2-344f-4f64-8389-4b41ada7c49a",
+        "latencyMs": 12,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -8830,8 +8830,8 @@
             "numRequests": 0
           }
         },
-        "id": "ab6a22ed-240f-4ba3-9143-42be5a038b8b",
-        "latencyMs": 12,
+        "id": "0a3124ff-764a-4cdf-b845-cc4f338c66f7",
+        "latencyMs": 10,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -8957,8 +8957,8 @@
             "numRequests": 0
           }
         },
-        "id": "49973a53-a652-41b4-a02c-d25530b77918",
-        "latencyMs": 8,
+        "id": "4f487b78-4256-455c-ade8-4434640f5858",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -9084,7 +9084,7 @@
             "numRequests": 0
           }
         },
-        "id": "12e007a1-0552-49c9-af98-9fb3a1c96588",
+        "id": "78338eb2-0906-417c-b02b-c32200fa8715",
         "latencyMs": 7,
         "namedScores": {},
         "prompt": {
@@ -9211,8 +9211,8 @@
             "numRequests": 0
           }
         },
-        "id": "7ce1317a-c63f-44f7-9f1a-01e23e4c6b13",
-        "latencyMs": 17,
+        "id": "7df05fb9-a691-45bb-9aea-43036ffd3e5e",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -9338,8 +9338,8 @@
             "numRequests": 0
           }
         },
-        "id": "3431c21d-808f-481b-88e3-d553b5ecaf0c",
-        "latencyMs": 17,
+        "id": "fa5185aa-8cf8-48bd-a026-a839dc50c7c5",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -9465,8 +9465,8 @@
             "numRequests": 0
           }
         },
-        "id": "494955b7-a89e-4666-acdf-913cdee24feb",
-        "latencyMs": 14,
+        "id": "ea61cb46-ffd1-4d3c-9418-2a343c0d5055",
+        "latencyMs": 8,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -9592,8 +9592,8 @@
             "numRequests": 0
           }
         },
-        "id": "d7bffff9-54f7-456a-aa75-bfe5abaced04",
-        "latencyMs": 6,
+        "id": "a07dd078-31d8-4003-a4f1-b16817ae9cc6",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -9719,8 +9719,8 @@
             "numRequests": 0
           }
         },
-        "id": "46c4881d-3ffa-4eb1-98a8-15f3128b86c7",
-        "latencyMs": 12,
+        "id": "f5939299-3d7d-45ef-915a-7cdeba5295f9",
+        "latencyMs": 22,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -9846,8 +9846,8 @@
             "numRequests": 0
           }
         },
-        "id": "35376162-bfe2-4ccb-ac1d-7f5f7ee70f01",
-        "latencyMs": 11,
+        "id": "63641301-326a-4739-bfc9-cacdbfbe5186",
+        "latencyMs": 17,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -9973,8 +9973,8 @@
             "numRequests": 0
           }
         },
-        "id": "382ae21d-a59c-421a-8afc-2fcd40d645ae",
-        "latencyMs": 7,
+        "id": "4b5f1201-f946-4afd-a1b5-eb069fa1248b",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -10100,8 +10100,8 @@
             "numRequests": 0
           }
         },
-        "id": "2b66eeb8-75fb-4ecc-b322-0a75880168a1",
-        "latencyMs": 6,
+        "id": "c64feaf6-0606-418e-9a10-f980b0978049",
+        "latencyMs": 8,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -10227,8 +10227,8 @@
             "numRequests": 0
           }
         },
-        "id": "e6bcb525-7e02-4bed-8cc4-59a1baeab779",
-        "latencyMs": 14,
+        "id": "f3a79a00-3cc7-466e-9d31-5806cd3889bf",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -10354,8 +10354,8 @@
             "numRequests": 0
           }
         },
-        "id": "aa0adda6-8bc2-47f1-8c36-56b09fa6be4c",
-        "latencyMs": 13,
+        "id": "70cbcf35-b069-43fa-aeb3-5990d6681e22",
+        "latencyMs": 12,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -10481,8 +10481,8 @@
             "numRequests": 0
           }
         },
-        "id": "3ffcb51e-7d63-43a3-b2cb-7b39ac2a39f5",
-        "latencyMs": 10,
+        "id": "236a1518-22e1-43f2-a42e-69897a48669a",
+        "latencyMs": 9,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -10608,8 +10608,8 @@
             "numRequests": 0
           }
         },
-        "id": "ef563e27-8037-4636-94ca-83e34447ae40",
-        "latencyMs": 9,
+        "id": "137f57c1-ef83-4884-a770-4878313a7a42",
+        "latencyMs": 7,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -10735,8 +10735,8 @@
             "numRequests": 0
           }
         },
-        "id": "b4a6202c-8925-41a8-9a52-0b4b5522a86c",
-        "latencyMs": 11,
+        "id": "2f023f87-24a9-4f50-8932-db351bdb930b",
+        "latencyMs": 14,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -10862,8 +10862,8 @@
             "numRequests": 0
           }
         },
-        "id": "670af00b-b6f4-4dcf-b212-b34c63677173",
-        "latencyMs": 11,
+        "id": "79b06d63-e293-47c3-9c02-313bf9d79736",
+        "latencyMs": 13,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -10989,7 +10989,7 @@
             "numRequests": 0
           }
         },
-        "id": "f0a1db05-d007-4428-b2ab-a46be414de7e",
+        "id": "ba65b830-d8d6-401e-b463-73762852c331",
         "latencyMs": 8,
         "namedScores": {},
         "prompt": {
@@ -11116,7 +11116,7 @@
             "numRequests": 0
           }
         },
-        "id": "51960baa-3ef0-4871-ac3b-942dda4f67b1",
+        "id": "f1a1881c-70c1-4df1-a5b0-1f5fc2179050",
         "latencyMs": 6,
         "namedScores": {},
         "prompt": {
@@ -11243,8 +11243,8 @@
             "numRequests": 0
           }
         },
-        "id": "a4e70aeb-1b06-4268-86f7-483aadef5b7d",
-        "latencyMs": 11,
+        "id": "38842711-f09a-4752-af45-9ad240043a99",
+        "latencyMs": 12,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -11370,8 +11370,8 @@
             "numRequests": 0
           }
         },
-        "id": "e0b6b7d5-ac4c-4fb0-812a-4503d1485eb8",
-        "latencyMs": 11,
+        "id": "2efb0dc3-1beb-4431-ae49-e3a6b0bf0c5c",
+        "latencyMs": 13,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -11497,8 +11497,8 @@
             "numRequests": 0
           }
         },
-        "id": "f67475f9-ed80-48a6-ab42-44194b9f15ff",
-        "latencyMs": 7,
+        "id": "48585be4-435c-4216-b420-f07720ca9374",
+        "latencyMs": 9,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -11624,8 +11624,8 @@
             "numRequests": 0
           }
         },
-        "id": "33e0af7a-b3d4-4d76-a51f-3e86547a2414",
-        "latencyMs": 6,
+        "id": "9b492a62-e3ad-434c-a202-90205a5574a1",
+        "latencyMs": 8,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -11751,8 +11751,8 @@
             "numRequests": 0
           }
         },
-        "id": "d062cfa6-0d45-4872-a3f2-a249f8b57c77",
-        "latencyMs": 11,
+        "id": "b919df8f-8a69-4696-906d-e334127f0339",
+        "latencyMs": 16,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -11878,8 +11878,8 @@
             "numRequests": 0
           }
         },
-        "id": "ea6550ca-afd8-45ba-b70c-dd7813381ea2",
-        "latencyMs": 11,
+        "id": "b2606a6b-fa62-4e1f-9f62-ea74be4171fb",
+        "latencyMs": 15,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -12005,8 +12005,8 @@
             "numRequests": 0
           }
         },
-        "id": "24f47f8c-6384-42c1-9268-c7c7545aa9b7",
-        "latencyMs": 7,
+        "id": "c72dc5f8-0f91-4197-9ac9-ec216b39796b",
+        "latencyMs": 9,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -12132,8 +12132,8 @@
             "numRequests": 0
           }
         },
-        "id": "d1fec74a-bac0-47ae-9466-3828996b5d92",
-        "latencyMs": 5,
+        "id": "d30fa698-3b52-49c3-98db-973a6890f7f3",
+        "latencyMs": 6,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -12259,7 +12259,7 @@
             "numRequests": 0
           }
         },
-        "id": "cf415704-8885-44b8-ae25-a01266136a9b",
+        "id": "79de02e3-87c7-434d-ab27-2dfa8b753d0c",
         "latencyMs": 12,
         "namedScores": {},
         "prompt": {
@@ -12386,8 +12386,8 @@
             "numRequests": 0
           }
         },
-        "id": "ee4d02a9-537b-4024-87d4-fc941bd4ab41",
-        "latencyMs": 12,
+        "id": "e03aafca-13c4-47a9-93f1-b62423b9b97f",
+        "latencyMs": 11,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -12513,7 +12513,7 @@
             "numRequests": 0
           }
         },
-        "id": "488bd387-36ca-41b3-9e9c-e333736a9a00",
+        "id": "3a3b2288-e854-476d-89a0-f6bda5ffae37",
         "latencyMs": 8,
         "namedScores": {},
         "prompt": {
@@ -12640,7 +12640,7 @@
             "numRequests": 0
           }
         },
-        "id": "4f37380b-59be-48e5-9428-62419f3515fc",
+        "id": "0f60ddd1-09f1-4455-89f8-41b873d2812e",
         "latencyMs": 6,
         "namedScores": {},
         "prompt": {
@@ -12767,8 +12767,8 @@
             "numRequests": 0
           }
         },
-        "id": "d221c10b-0c77-4fc7-9012-5849766e9b52",
-        "latencyMs": 6,
+        "id": "d7723a74-dea9-4711-927f-15d707b41601",
+        "latencyMs": 5,
         "namedScores": {},
         "prompt": {
           "raw": "You are a helpful AI assistant.\n\nUse only the following context to answer the question.\n\nContext:\n\n\nQuestion:\n\n\nIf the answer is not present in the context, respond exactly:\n\"I cannot find that information in our records.\"\n",
@@ -12913,8 +12913,8 @@
           }
         }
       },
-      "durationMs": 1127,
-      "evaluationDurationMs": 1127
+      "durationMs": 1057,
+      "evaluationDurationMs": 1057
     }
   },
   "config": {
@@ -12946,8 +12946,8 @@
     "nodeVersion": "v24.16.0",
     "platform": "win32",
     "arch": "x64",
-    "exportedAt": "2026-06-30T10:11:49.093Z",
-    "evaluationCreatedAt": "2026-06-30T10:11:47.790Z"
+    "exportedAt": "2026-07-01T10:01:13.166Z",
+    "evaluationCreatedAt": "2026-07-01T10:01:11.947Z"
   },
   "vars": [
     "vars.context",

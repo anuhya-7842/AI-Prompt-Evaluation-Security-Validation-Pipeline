@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import json
-
+import os
+from datetime import datetime
 st.set_page_config(page_title="LLM Evaluation Dashboard", layout="wide")
 
 st.title("📊 LLM Evaluation Dashboard")
@@ -81,28 +82,59 @@ st.subheader("Detailed Results")
 st.dataframe(df, use_container_width=True)
 st.divider()
 
+st.divider()
+
 st.header("📈 Evaluation History")
 
-history = pd.read_csv("../history/metrics_history.csv")
+history_file = "../history/metrics_history.csv"
 
-st.dataframe(history, use_container_width=True)
+if os.path.exists(history_file):
 
-st.subheader("Pass Rate Over Time")
+    history = pd.read_csv(history_file)
 
-pass_rate = (history["Passed"] / history["TotalTests"]) * 100
+    if not history.empty:
 
-history["PassRate"] = pass_rate
+        st.dataframe(history, use_container_width=True)
 
-st.line_chart(history.set_index("Timestamp")["PassRate"])
+        history["PassRate"] = (
+            history["Passed"] / history["TotalTests"]
+        ) * 100
 
-st.subheader("Hallucination Rate")
+        st.subheader("Pass Rate Over Time")
+        st.line_chart(history.set_index("Timestamp")["PassRate"])
 
-st.line_chart(history.set_index("Timestamp")["HallucinationRate"])
+        st.subheader("Hallucination Rate")
+        st.line_chart(history.set_index("Timestamp")["HallucinationRate"])
 
-st.subheader("Average Latency")
+        st.subheader("Average Latency")
+        st.line_chart(history.set_index("Timestamp")["AverageLatency"])
 
-st.line_chart(history.set_index("Timestamp")["AverageLatency"])
+        st.subheader("P95 Latency")
+        st.line_chart(history.set_index("Timestamp")["P95Latency"])
 
-st.subheader("P95 Latency")
+    else:
+        st.info("No metrics history available.")
 
-st.line_chart(history.set_index("Timestamp")["P95Latency"])
+else:
+    st.info("Metrics history file not found.")
+st.divider()
+
+if failed == 0:
+    st.success("✅ Latest Evaluation Passed")
+else:
+    st.error("❌ Latest Evaluation Failed")
+
+st.write("### Latest Evaluation")
+st.write(datetime.now().strftime("%d-%m-%Y %H:%M:%S"))
+st.divider()
+
+st.header("⬇️ Download Results")
+
+csv = df.to_csv(index=False).encode("utf-8")
+
+st.download_button(
+    label="Download Evaluation Results",
+    data=csv,
+    file_name="evaluation_results.csv",
+    mime="text/csv",
+)
