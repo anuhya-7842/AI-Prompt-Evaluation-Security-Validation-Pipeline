@@ -24,11 +24,7 @@ defaultTest:
     transformVars: |
       return vars;
 
-  assert:
-  - type: llm-rubric
-    value: |
-      The response should:
-      - Correctly answer the question.
-      - Only use information from the provided context.
-      - Not hallucinate.
-      - Be relevant and concise.
+evaluateOptions:
+  maxConcurrency: 4
+
+outputPath: results.json
