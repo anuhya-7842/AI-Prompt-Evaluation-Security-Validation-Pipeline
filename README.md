@@ -2,35 +2,41 @@
 
 ## Overview
 
-This project implements an automated evaluation pipeline for Large Language Models (LLMs) using Promptfoo, GitHub Actions, and Streamlit.
+This project implements an end-to-end LLM Evaluation Pipeline that automatically evaluates Large Language Model (LLM) responses using Promptfoo and Google Gemini. It measures response quality, tracks evaluation metrics over time, and visualizes results through a Streamlit dashboard.
 
-The pipeline automatically evaluates prompt quality whenever code or prompts are updated, similar to unit testing in software development.
+The pipeline integrates GitHub Actions CI/CD to automatically validate prompt quality whenever prompts or code are updated.
 
 ---
 
-## Features
+# Features
 
 - 100+ Golden Dataset Test Cases
 - Prompt Evaluation using Promptfoo
-- Google Gemini 3.1 Flash Lite
+- Google Gemini 3.1 Flash Lite Integration
 - Automated GitHub Actions CI/CD
 - Hallucination Detection
-- Latency Measurement
-- P50 & P95 Latency
-- Streamlit Dashboard
-- Evaluation Threshold Checking
+- Answer Quality Evaluation
+- Pass/Fail Analysis
+- Latency Monitoring
+- P50 and P95 Latency Metrics
 - Metrics History Tracking
+- Interactive Streamlit Dashboard
+- Automated Threshold Validation
+- Multi-page Streamlit Web Application
 
 ---
 
-## Project Structure
+# Project Structure
 
-```
+```text
 llm-eval-pipeline/
 │
 ├── .github/
 │   └── workflows/
 │       └── llm-eval.yml
+│
+├── .streamlit/
+│   └── config.toml
 │
 ├── dashboard/
 │   └── app.py
@@ -41,113 +47,198 @@ llm-eval-pipeline/
 ├── history/
 │   └── metrics_history.csv
 │
+├── images/
+│
+├── pages/
+│   ├── Golden_Dataset.py
+│   ├── Run_Evaluation.py
+│   ├── Dashboard.py
+│   ├── Metrics_History.py
+│   └── Project_Info.py
+│
 ├── prompts/
-│   └── rag_system_prompt.txt
 │
 ├── scripts/
 │   ├── check_results.py
 │   └── save_metrics.py
 │
+├── Home.py
 ├── promptfooconfig.yaml
-├── results.json
+├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
 
 ---
 
-## Installation
+# Installation
+
+Clone the repository
 
 ```bash
 git clone https://github.com/anuhya-7842/llm-eval-pipeline.git
+```
 
+Move into the project
+
+```bash
 cd llm-eval-pipeline
+```
 
+Create a virtual environment
+
+```bash
 python -m venv venv
+```
 
+Activate the environment
+
+### Windows
+
+```bash
 venv\Scripts\activate
+```
 
-pip install streamlit
+### Linux / macOS
 
+```bash
+source venv/bin/activate
+```
+
+Install the required Python packages
+
+```bash
+pip install -r requirements.txt
+```
+
+Install Promptfoo
+
+```bash
 npm install -g promptfoo
 ```
 
 ---
 
-## Environment Variable
+# Running the Evaluation
 
-Create a `.env` file.
+Run Promptfoo evaluation
 
-```
-GOOGLE_API_KEY=YOUR_API_KEY
-```
-
----
-
-## Run Evaluation
-
-```
-npx promptfoo eval --env-file .env
+```bash
+promptfoo eval --output results.json
 ```
 
 ---
 
-## Run Dashboard
+# Saving Evaluation Metrics
 
-```
-cd dashboard
-
-streamlit run app.py
-```
-
----
-
-## Threshold Check
-
-```
-python scripts/check_results.py
-```
-
----
-
-## Save Evaluation History
-
-```
+```bash
 python scripts/save_metrics.py
 ```
 
 ---
 
-## Dashboard Metrics
+# Checking Evaluation Thresholds
+
+```bash
+python scripts/check_results.py
+```
+
+---
+
+# Running the Streamlit Application
+
+```bash
+streamlit run Home.py
+```
+
+---
+
+# Dashboard Features
+
+The dashboard displays the following evaluation metrics:
 
 - Total Tests
 - Passed Tests
 - Failed Tests
-- Hallucination Rate
 - Pass Rate
+- Hallucination Rate
 - Average Latency
 - P50 Latency
 - P95 Latency
-- Estimated Cost
+- Estimated Evaluation Cost
 - Metrics History
+- Evaluation Trends
+- Historical Performance Charts
 
 ---
 
-## CI/CD
+# Streamlit Pages
 
-Every push automatically:
+The application contains the following pages:
+
+- Home
+- Golden Dataset
+- Run Evaluation
+- Dashboard
+- Metrics History
+- Project Information
+
+---
+
+# GitHub Actions CI/CD Workflow
+
+Every push to the **main** branch automatically performs the following tasks:
 
 - Runs Promptfoo evaluation
-- Checks evaluation thresholds
-- Blocks failing evaluations
+- Executes all golden dataset test cases
+- Calculates evaluation metrics
+- Validates hallucination threshold
+- Validates latency threshold
+- Fails the pipeline if thresholds are exceeded
 - Saves evaluation metrics
 
 ---
 
-## Technologies
+# Evaluation Metrics
+
+The pipeline measures:
+
+- Hallucination Rate
+- Answer Relevancy
+- Pass Rate
+- Failed Tests
+- Average Latency
+- P50 Latency
+- P95 Latency
+- Estimated Evaluation Cost
+
+---
+
+# Technologies Used
 
 - Python
-- Promptfoo
 - Streamlit
-- GitHub Actions
+- Promptfoo
 - Google Gemini 3.1 Flash Lite
+- GitHub Actions
+- Pandas
+- CSV
+
+---
+
+# Project Objective
+
+The objective of this project is to build a production-ready LLM Evaluation CI/CD Pipeline that continuously validates AI-generated responses, monitors performance, detects hallucinations, and provides historical evaluation insights through an interactive Streamlit dashboard.
+
+---
+
+# Project Demonstration
+
+This project includes:
+
+- Multi-page Streamlit Application
+- Interactive Evaluation Dashboard
+- Automated Prompt Evaluation Pipeline
+- GitHub Actions CI/CD Workflow
+- Historical Metrics Tracking
+- Automated Threshold Validation
