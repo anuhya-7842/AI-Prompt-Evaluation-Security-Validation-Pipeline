@@ -148,7 +148,7 @@ python scripts/check_results.py
 # Running the Streamlit Application
 
 ```bash
-streamlit run Home.py
+https://anuhya-llm-promptfoo-configuration.streamlit.app/
 ```
 
 ---
